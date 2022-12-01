@@ -1,0 +1,134 @@
+body {
+  background-color: #ffffff;
+  font-family: "poppins", sans-serif;
+  color: #071C4D;
+}
+
+.navbar-brand img {
+  max-height: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-navbar-right {
+  margin-top: -20px !important;
+  margin-bottom: -19px !important;
+  margin-right: -18px !important;
+  height:100px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #1e3772;
+  color: #fff;
+}
+
+.btn-warning{
+  background: orange;
+  border: 0;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-warning:hover{
+  background: rgb(171, 115, 10);
+  border: 0;
+}
+
+.btn-secondary{
+  background: none;
+  border: 1 #19232e;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #173A56;
+}
+
+.btn-secondary:hover{
+  background: black;
+  border: 1 #000000;
+}
+
+.carousel {
+  margin-top: -100px;
+   z-index: -99; } /* keeps this behind all content */
+
+@media (max-width: 991.98px) { 
+  .btn-warning .btn-secondary{
+      margin-bottom: 10px;
+      margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .btn-warning .btn-secondary{
+      margin-bottom: 10px;
+      margin-left: 0 !important;
+  }
+}
+
+.badan-detail {
+  margin-top: 140px;
+}
+.badan-detail p {
+  margin-top: 10px;
+  font-family: poppins;
+  font-size: large;
+}
+
+h5 {
+  font-family: poppins;
+}
+
+.main-item {
+  margin-top: 100px;
+}
+
+@media (min-width: 992px) {
+  .login-container {
+    background: linear-gradient(90deg, #e66465 60%, #09106d 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+  background-size: cover;
+}
+.page-login .btn-login {
+  background-color: #FF9E53;
+  color: #fff;
+}
+.page-login .btn-login:hover {
+  background-color: #FFB57C;
+  color: #fff;
+}
+
+.section-left h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #071C4D;
+}
+
+.section-right a {
+  font-family: "Assistant";
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 16px;
+  text-align: center;
+  color: #bfbfbf;
+}/*# sourceMappingURL=main.css.map */
