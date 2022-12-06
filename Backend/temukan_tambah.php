@@ -56,7 +56,7 @@
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label" for="alamat">Alamat</label>
                             <div class="col-sm-10">
-                            <textarea rows="4" type="text" name="alamat" value="<?= @$hilang['alamat']; ?>" class="form-control" required></textarea>
+                            <input rows="4" type="text" name="alamat" value="<?= @$hilang['alamat']; ?>" class="form-control" required>
                             </div>
                         </div>
                         <div class="row mb-3">

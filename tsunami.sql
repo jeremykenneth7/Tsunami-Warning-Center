@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 21 Nov 2022 pada 04.15
--- Versi server: 10.4.22-MariaDB
--- Versi PHP: 8.1.2
+-- Waktu pembuatan: 06 Des 2022 pada 12.17
+-- Versi server: 10.4.24-MariaDB
+-- Versi PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -66,7 +66,8 @@ CREATE TABLE `hilang` (
 --
 
 INSERT INTO `hilang` (`id`, `nama`, `jk`, `alamat`, `telp`, `status`) VALUES
-(1, 'Yusril', 'L', 'Fresno, Ohio', '0812232320', 2);
+(1, 'Yusril', 'L', 'Jalan Perkutut 1 Yogyakarta', '0812232320', 2),
+(2, 'Hendro', 'L', 'Jalan Pisan 3 Yogyakarta', '08122434312', 2);
 
 -- --------------------------------------------------------
 
@@ -99,6 +100,12 @@ ALTER TABLE `anggota`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indeks untuk tabel `hilang`
+--
+ALTER TABLE `hilang`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indeks untuk tabel `users`
 --
 ALTER TABLE `users`
@@ -112,7 +119,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `anggota`
 --
 ALTER TABLE `anggota`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT untuk tabel `hilang`
+--
+ALTER TABLE `hilang`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
