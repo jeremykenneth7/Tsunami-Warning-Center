@@ -36,7 +36,7 @@
 <h3 align="center">Tsunami Warning Center</h3>
 
   <p align="center">
-    App for Tsunami Disaster and Warning Center with API on Realtime Earthquake data +5.0 Magnitudo and Realtime Maps with GeoJSON for Tsunami Warning
+    App for Tsunami Disaster and Warning Center with API on Realtime Earthquake data +5.0 Magnitudo and Realtime Maps with GeoJSON for Tsunami Warning in Indonesia
     <br />
     <a href="https://github.com/jeremykenneth7/Tsunami-Warning-Center"><strong>Explore the docs »</strong></a>
     <br />
@@ -80,7 +80,7 @@
 
 [![Tsunami Warning Center][product-screenshot]](https://github.com/jeremykenneth7/Tsunami-Warning-Center)
 
-App for Tsunami Disaster and Warning Center with API on Realtime Earthquake data +5.0 Magnitudo and Realtime Maps with GeoJSON for Tsunami Warning
+App for Tsunami Disaster and Warning Center with API on Realtime Earthquake data +5.0 Magnitudo and Realtime Maps with GeoJSON for Tsunami Warning in Indonesia
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
