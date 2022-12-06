@@ -121,7 +121,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To edit the frontend file upload the SQL data file into the database of phpmyadmin so the MAPS API can be turned
+To edit the backend file from Tsunami SQL database, upload the SQL data file into the phpmyadmin so the data can be edited 
 
 _For more examples, please refer to the [Documentation](https://github.com/jeremykenneth7/Tsunami-Warning-Center.git)_
 
