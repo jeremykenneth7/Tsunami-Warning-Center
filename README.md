@@ -179,7 +179,7 @@ Project Link: [https://github.com/jeremykenneth7/Tsunami-Warning-Center](https:/
 [issues-shield]: https://img.shields.io/github/issues/jeremykenneth7/Tsunami-Warning-Center.svg?style=for-the-badge
 [issues-url]: https://github.com/jeremykenneth7/Tsunami-Warning-Center/issues
 [license-shield]: https://img.shields.io/github/license/jeremykenneth7/Tsunami-Warning-Center.svg?style=for-the-badge
-[license-url]: https://github.com/jeremykenneth7/Tsunami-Warning-Center/blob/master/LICENSE.txt
+[license-url]: https://github.com/jeremykenneth7/Tsunami-Warning-Center/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jeremy-kenneth-24b06b233/
 [product-screenshot]: images/gempa.png
